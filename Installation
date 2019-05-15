@@ -1,10 +1,1 @@
-Ansible install in Ubuntu
 
-sudo apt-get update
-sudo apt-get install software-properties-common
-sudo apt-add-repository ppa:ansible/ansible
-sudo apt-get update
-sudo apt-get install ansible
-ansible  --version    // Just to check ansible has been installed properly or not(ansible 2.6.1, python 2.7.6)
-export ANSIBLE_HOST_KEY_CHECKING=FALSE(skipping host key checking fails on changed target host key error. Mandatory command to run so that it will generate ssh key for newly added ip to hosts file)
-  
